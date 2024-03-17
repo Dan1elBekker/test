@@ -1,0 +1,341 @@
+/* -------- keyframes ------- */
+
+@keyframes heroContentSlideIn {
+	from {
+		transform: translateX(96%);
+	}
+	to {
+		transform: translateX(0);
+	}
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+/* -------- home hero -------- */
+li {
+	border: 1px solid black; /* Black line border */
+	padding: 10px; /* Add some padding for spacing */
+	margin-bottom: 10px; /* Add margin to separate list items */
+}
+
+
+
+
+
+
+
+#home-hero {
+	background-image: url('../img/building.jpg');
+	/* Photo by Juhasz Imre from Pexels */
+	background-position: center;
+	background-size: cover;
+	height: 65vh;
+	display: flex;
+	flex-wrap: wrap; /* Updated */
+	justify-content: center; /* Updated */
+	align-items: center;
+}
+
+#home-hero-content-wrapper {
+	background: rgba(43, 92, 116, 0.9);
+	height: 50vh;
+	width: 100%; /* Updated */
+	display: flex;
+	flex-wrap: wrap; /* Updated */
+	justify-content: center; /* Updated */
+	align-items: center;
+	animation: heroContentSlideIn 1s ease-in;
+}
+
+#home-hero-content {
+	margin: auto; /* Updated */
+	width: 80%; /* Updated */
+	text-align: center; /* Updated */
+	color: #fff;
+}
+
+#home-hero-content h1,
+#home-hero-content h2 {
+	font-size: 2rem; /* Updated */
+}
+
+#home-hero-content h2 {
+	margin-bottom: 1rem;
+}
+
+#home-hero-content p {
+	font-size: 1rem; /* Updated */
+	margin-bottom: 2rem;
+}
+
+/* ----- Practices ------ */
+
+#practices {
+	padding-bottom: 1rem;
+}
+
+#practices h2 {
+	padding: 2rem 1rem; /* Updated */
+	background: rgb(234, 255, 253);
+	font-size: 1.2rem; /* Updated */
+}
+
+#practices ul {
+	list-style: none;
+	margin: auto;
+	padding-bottom: 2rem;
+}
+
+#practices li {
+	padding: 1rem; /* Updated */
+}
+
+#practices li h3 {
+	font-size: 1rem; /* Updated */
+}
+
+#practices li h3 i {
+	font-size: 0.8rem; /* Updated */
+}
+
+#practices li p {
+	margin-left: 0.5rem; /* Updated */
+	padding: 0.5rem 0;
+}
+
+/* ------ Our Vision ------ */
+
+#vision {
+	background: rgb(1, 57, 85);
+	color: #fff;
+	padding: 1rem; /* Updated */
+}
+
+#vision h2 {
+	padding: 1rem; /* Updated */
+	font-size: 1.5rem; /* Updated */
+	text-align: center;
+}
+
+#vision p {
+	padding: 0.5rem;
+	max-width: 100%; /* Updated */
+	margin: 0 auto;
+}
+
+/* --------- Attorneys -------- */
+
+#attorneys #image-block {
+	height: 200px;
+	/* Photo by rawpixel.com from Pexels */
+	background-image: url('../img/meeting.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+#attorney-content {
+	background: rgb(234, 255, 253);
+	padding-bottom: 2rem; /* Updated */
+}
+
+#attorney-content h2 {
+	padding: 2rem 0; /* Updated */
+	text-align: center;
+}
+
+#attorney-content ul {
+	padding: 0.5rem 0;
+	max-width: 100%; /* Updated */
+	margin: 0 auto;
+}
+
+#attorney-content ul li {
+	text-align: center;
+	padding: 1rem; /* Updated */
+	list-style: none;
+}
+
+#attorney-content ul li img {
+	height: 120px; /* Updated */
+}
+
+#attorney-content ul li h4 {
+	padding: 0.5rem;
+}
+
+#attorney-content ul li h5 {
+	font-size: 0.8rem; /* Updated */
+	color: rgba(85, 174, 219, 0.452);
+}
+
+#attorney-content ul li div {
+	width: 100%; /* Updated */
+	margin: auto;
+	margin-top: 1rem;
+	padding: 1rem;
+	border-top: 1px solid rgba(85, 174, 219, 0.452);
+}
+
+/* ------ Contact ----- */
+
+#contact {
+	/* Photo by Juhasz Imre from Pexels  */
+	background: linear-gradient(rgba(43, 92, 116, 0.6), rgba(43, 92, 116, 0.6)),
+		url('../img/building2.jpg');
+}
+
+#contact-info {
+	color: #fff;
+}
+
+#contact h2 {
+	padding: 1rem; /* Updated */
+	background: rgba(43, 92, 116, 0.8);
+	color: #fff;
+}
+
+#contact-info h3 {
+	padding: 1rem; /* Updated */
+}
+
+#contact-info #address {
+	padding: 0 1rem 1rem 1rem; /* Updated */
+}
+
+#contact-info #address p {
+	padding: 0.2rem 0;
+}
+
+#contact-info p {
+	padding: 0.5rem 1rem; /* Updated */
+}
+
+#home-contact-form {
+	padding: 1rem; /* Updated */
+}
+
+#home-contact-form form input,
+#home-contact-form form textarea {
+	width: 100%;
+	padding: 0.5rem;
+	margin: 0.4rem 0;
+	box-sizing: border-box;
+}
+
+#home-contact-form form textarea {
+	padding: 0.5rem 0 2rem; /* Updated */
+}
+
+#home-contact-form .form-submit {
+	width: 100%;
+	padding: 0.5rem 0;
+	background: rgb(91, 211, 189);
+	border: none;
+	color: #fff;
+}
+
+/* -------- Back To Top --------- */
+
+#back-to-top {
+	width: 100%;
+	text-align: center;
+	padding: 1rem; /* Updated */
+	background: rgb(1, 57, 85);
+	color: #fff;
+}
+
+#back-to-top i {
+	font-size: 1.2rem; /* Updated */
+	margin-bottom: 0.5rem; /* Updated */
+}
+
+/* ------ footer ------ */
+
+footer {
+	padding: 1rem 0; /* Updated */
+	text-align: center;
+}
+
+footer #social-icons a {
+	padding: 0.5rem; /* Updated */
+}
+
+footer #social-icons i {
+	font-size: 1.2rem; /* Updated */
+}
+
+footer p {
+	font-size: 0.8rem; /* Updated */
+	margin-top: 0.5rem; /* Updated */
+}
+
+/* ------ Media Queries ------ */
+
+@media screen and (min-width: 600px) {
+	#home-hero-content {
+		width: 60%;
+	}
+
+	#home-hero-content-wrapper {
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	#home-hero {
+		height: 75vh; /* Updated */
+	}
+
+	#home-hero-content-wrapper {
+		width: 50%;
+	}
+
+	#practices h2 {
+		font-size: 1.4rem; /* Updated */
+	}
+
+	#attorneys #image-block {
+		height: 300px; /* Updated */
+	}
+}
+
+@media screen and (min-width: 960px) {
+	#home-hero-content-wrapper {
+		width: 40%;
+	}
+
+	#practices h2 {
+		padding-left: 2rem; /* Updated */
+		width: 20%;
+	}
+
+	#contact {
+		flex-direction: row;
+		align-items: center;
+	}
+
+	#contact h2 {
+		width: 20%;
+		padding: 1rem 4rem;
+	}
+
+	#contact-info {
+		width: 20%;
+	}
+
+	#contact-info p {
+		padding-right: 0;
+	}
+
+	#home-contact-form {
+		width: 40%;
+	}
+}
